@@ -4,8 +4,8 @@ Feature: Test Selenium
     Given I am on the youtube website 
     When I press the "Sign in" button
     And I enter the right username and password
-      | Username | timoleodas@gmail.com |
-     | Password | 11akatsuki11                |
+      | Username | byztrkk@gmail.com |
+     | Password | 123123                |
     And press "Sign in" button
     And click the profile icon
     Then it will display the name of the user
@@ -15,8 +15,8 @@ Feature: Test Selenium
     Given I am on the youtube website
     When I press the "Sign in" button
     And I enter the right username and password
-      | Username | timoleodas@gmail.com |
-      | Password | 11akatsuki11                |
+      | Username | byztrkk@gmail.com |
+      | Password | 123123                |
     And press "Sign in" button
     And click "Popular Films Videos" button
     Then it will display the video "Disney's Fren Fever Trailer"
