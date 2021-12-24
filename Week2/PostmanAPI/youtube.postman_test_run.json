@@ -1,0 +1,106 @@
+{
+	"id": "aa7e92db-b0df-466b-903a-546722e523d1",
+	"name": "youtube",
+	"timestamp": "2021-12-24T15:02:07.381Z",
+	"collection_id": "18915246-89f0b74e-0006-4fad-9bf6-262e82bf0fd6",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "945f8b3c-1477-4ea7-bd5b-3e223132ef68",
+			"name": "SEARCH",
+			"url": "https://www.youtube.com/youtubei/v1/search?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+			"time": 864,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				864
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "94b99f92-0374-4fd3-ae00-b17435bac5b5",
+			"name": "SUBSCRIPTION",
+			"url": "https://www.youtube.com/youtubei/v1/subscription/subscribe?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				143
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4368b374-60cc-4d3c-a5c9-7866940c7feb",
+			"name": "CREATE_COMMENT",
+			"url": "https://www.youtube.com/youtubei/v1/comment/create_comment?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				125
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "21235582-49dc-4e67-9943-f5c2260ed55e",
+			"name": "WATCH",
+			"url": "https://www.youtube.com/api/stats/watchtime?ns=yt&el=detailpage&cpn=CP5srQ44DvIotm6b&ver=2&cmt=2.168&fmt=247&fs=0&rt=17.005&euri&lact=11025&cl=417053486&state=paused&volume=100&subscribed=1&cbr=Chrome&cbrver=96.0.4664.110&c=WEB&cver=2.20211221.00.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&hl=tr_TR&cr=TR&uga=f23&len=5095.121&feature=relmfu&afmt=251&idpj=-6&ldpj=-27&rti=17&st=2.168&et=2.168&muted=0&docid=Y6YIcSu93XM&ei=gSLFYcrqBN6E8gOJpr6IDA&plid=AAXT2km_EAitaNUQ&referrer=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dk-UWJsdH3gI&sdetail=rv%3Ak-UWJsdH3gI&sourceid=yw&of=JHOMXN8qRTNwkwKyOVgB_g&vm=CAEQARgEOjJBS1JhaHdCWXh6V25fVUFCMEZxT3diN1kxWmFsNTNjeHVKSjJmZmt5Ym5vVnJpR2xSQWJTQVBta0tETHpnS0pPTGh4U2pleExxRHlQOWtHY0NrQzdJci1wT2I4ZTdZdmt5RHNnaHVycjFfOUt5MjZLZkhUdURPbW1yTXo2ZFdRNWw3R0VQR0",
+			"time": 97,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				97
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1229,
+	"collection": {
+		"requests": [
+			{
+				"id": "945f8b3c-1477-4ea7-bd5b-3e223132ef68",
+				"method": "POST"
+			},
+			{
+				"id": "94b99f92-0374-4fd3-ae00-b17435bac5b5",
+				"method": "POST"
+			},
+			{
+				"id": "4368b374-60cc-4d3c-a5c9-7866940c7feb",
+				"method": "POST"
+			},
+			{
+				"id": "21235582-49dc-4e67-9943-f5c2260ed55e",
+				"method": "GET"
+			}
+		]
+	}
+}
