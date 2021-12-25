@@ -2,9 +2,9 @@
 	 
 1. [x] Week-1 :
    - a. Homework
-     - > [25 Manuel Test]
+      > [25 Manuel Test]
    - b. Homework
-     - > [Selenium ile Test Seneryosu]
+      > [Selenium ile Test Seneryosu]
 	 
 	 
 2. [x] Week-2  :
