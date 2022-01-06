@@ -29,7 +29,7 @@
 	 
 ###   Week-5 :
    - a. Homework
-        [Appium ile Test Otomasyon - Trendyol Uygulaması]
+        [Appium ile Test Otomasyon POM - Trendyol]
    - b. Homework
    
 ###   Week-6 :
