@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\BeyzaOZTURK\\Documents\\GitHub\\BeyzaNurOzturk_Homework\\Week4\\HW1\\HW1.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\BeyzaOZTURK\\Documents\\GitHub\\BeyzaNurOzturk_Homework\\Week4\\HW1\\HW1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\BeyzaOZTURK\\Documents\\GitHub\\BeyzaNurOzturk_Homework\\Week4\\HW1\\HW1.csproj",
+        "projectName": "HW1",
+        "projectPath": "c:\\Users\\BeyzaOZTURK\\Documents\\GitHub\\BeyzaNurOzturk_Homework\\Week4\\HW1\\HW1.csproj",
+        "packagesPath": "C:\\Users\\BeyzaOZTURK\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\BeyzaOZTURK\\Documents\\GitHub\\BeyzaNurOzturk_Homework\\Week4\\HW1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BeyzaOZTURK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[17.0.1-release-20211109-01, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.415\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
