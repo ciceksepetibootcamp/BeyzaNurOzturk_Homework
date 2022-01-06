@@ -1,4 +1,4 @@
-## CicekSepeti Test Bootcamp Homeworks
+## CicekSepeti Test Automation Bootcamp Homeworks
 	 
 ###  🚀 Week-1 :
    - a. Homework
